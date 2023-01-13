@@ -1,0 +1,10 @@
+var gang = ["YURRRR", "YOOOOOO", "AYOOOOOO", "GET YO Money up"];
+
+for (i = 0; i < gang.length; i++){
+    console.log(gang[i].toLowerCase())
+}
+
+// for this example we are asked to make every thing lowercase
+// to do this we are doing the same for statement and then in our 
+// console.log(gang[i]) this is making sure we call on our array
+// then we do .toLowerCase() to tell our array that we want everything in lower toLowerCase
