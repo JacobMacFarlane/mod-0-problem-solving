@@ -1,0 +1,15 @@
+var things = ["Cars", "Monkey", "Bars", "Tang", "Abracadabra"]
+
+for (var i = 0; i < things.length; i++) {
+    if (things[i].length === 4) {
+    console.log(things[i])
+}
+}
+// for challenge 1 i am given the task of creating an array of strings
+//  To do this i will set my var as things than after my equal signs
+//  i will use square brackets and list off all of my strings
+//  then i will create a for statement. In the for statment i will have a conditional 
+// if statement in order to only put words down that have 4 characters
+// this is ymbolized by `if (things[i].length === 4)`
+// then after this i call my function using console.log(things[i])
+// i put things[i] isnide of console.log in order to tell the computer i want the contents of the array
